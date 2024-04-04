@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+
+* {
+  @apply m-0 p-0 box-border;
+}
+
+.inputStyle {
+  @apply w-full px-3 py-2 text-gray-800 focus:outline-none border border-gray-800 rounded-md;
+}
+@tailwind utilities;
